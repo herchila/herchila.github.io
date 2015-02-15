@@ -6,6 +6,8 @@ categories: django, virtualenv
 ---
 La idea de este post es que, en poco tiempo, puedan crear una aplicación web con Django.
 
+En mi caso usaré la distribución **Ubuntu**, si usas otra distribución pude que éstas indicaciones varíen un poco. Para los que recién empiezan, Django es un Framework para el desarrollo de aplicaciones Web basado en el lenguaje de programación Python. Django es usado por grandes empresas para sus proyectos web como la NASA, New York Times, Disqus, Instagram, Pinterest, etc.
+
 ## Armando entorno de desarrollo con virtualenv
 
 **¿Qué es virtualenv?**
@@ -20,21 +22,21 @@ Esto quiere decir que podes instalar Python 2.7 en un entorno virtual y Python 3
 
 ### Instalación
 
-> La instalación de todo lo necesario para llevar a cabo este tutorial, se hará sobre Ubuntu/Debian
-
 Abrimos la terminal (o consola) y escribimos lo siguiente:
 
 {% highlight bash %}
 ~$ sudo apt-get update
 {% endhighlight %}
 
-Luego instalamos PIP:
+Luego instalamos Pip:
+
+> Pip es el **gestor de paquetes de Python**, al igual que aptitude o apt-get puedes instalar paquetes con el comando pip install nombre_paquete, buscar paquetes con el comando pip search nombre_paquete o listar los paquetes instalados con el comando pip freeze.
 
 {% highlight bash %}
 ~$ sudo apt-get install python-pip
 {% endhighlight %}
 
-Una vez instalado PIP, podemos instalar Virtualenv:
+Una vez instalado Pip, podemos instalar Virtualenv:
 
 {% highlight bash %}
 ~$ sudo pip install virtualenv
