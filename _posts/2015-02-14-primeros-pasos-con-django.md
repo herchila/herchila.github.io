@@ -2,7 +2,7 @@
 layout: post
 title:  "Primeros pasos con Django"
 date:   2015-02-14 20:03:00
-categories: django, virtualenv
+categories: django virtualenv
 ---
 La idea de este post es que, en poco tiempo, puedan crear una aplicación web con Django.
 
