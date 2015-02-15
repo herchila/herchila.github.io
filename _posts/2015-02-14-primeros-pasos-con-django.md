@@ -2,9 +2,9 @@
 layout: post
 title:  "Primeros pasos con Django"
 date:   2015-02-14 20:03:00
-categories: django virtualenv
+categories: django
 ---
-La idea de este post es que, en poco tiempo, puedan crear una aplicación web con Django.
+La idea de este post es que, en poco tiempo, puedan crear el primer proyecto en Django.
 
 En mi caso usaré la distribución **Ubuntu**, si usas otra distribución pude que éstas indicaciones varíen un poco. Para los que recién empiezan, Django es un Framework para el desarrollo de aplicaciones Web basado en el lenguaje de programación Python. Django es usado por grandes empresas para sus proyectos web como la NASA, New York Times, Disqus, Instagram, Pinterest, etc.
 
@@ -187,4 +187,4 @@ Ingresamos a http://127.0.0.1:8000/
 
 ¡Excelente! Acabas de crear tu primer sitio web y ejecutarlo mediante un servidor web! ¿No es genial?
 
-**En el próximo post voy hablar sobre los Modelos y cómo crear nuestra primer aplicación.**
+**En los próximos posts voy hablar sobre los Modelos y cómo crear nuestra primer aplicación.**
