@@ -4,6 +4,8 @@ title:  "Primeros pasos con Django"
 date:   2015-02-18 16:13:00
 categories: django
 ---
+![Django logo]({{ site.url }}/assets/django-logo-positive.png)
+
 La idea de este post es que, en poco tiempo, puedan crear el primer proyecto en Django.
 
 En mi caso usaré la distribución **Ubuntu**, si usas otra distribución pude que éstas indicaciones varíen un poco. Para los que recién empiezan, Django es un Framework para el desarrollo de aplicaciones Web basado en el lenguaje de programación Python. Django es usado por grandes empresas para sus proyectos web como la NASA, New York Times, Disqus, Instagram, Pinterest, etc.
@@ -12,8 +14,6 @@ En mi caso usaré la distribución **Ubuntu**, si usas otra distribución pude q
 
 Lo recomendable es crear un ambiente de desarrollo antes de empezar cualquier proyecto. No importa el lenguaje.
 [En el post anterior](http://herchila.github.io/python/virtualenv/2015/02/14/armando-entorno-de-desarrollo-en-python-con-virtualenv.html "Armando entorno de desarrollo con virtualenv") escribí sobre cómo armar un entorno de desarrollo. Antes de seguir con este post, te recomiendo que veas el otro.
-
-![Django logo]({{ site.url }}/assets/django-logo-positive.png)
 
 ## Instalando Django
 
