@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Armando entorno de desarrollo con virtualenv"
-date:   2015-02-18 16:13:00
+title:  "Armando entorno de desarrollo en Python con virtualenv"
+date:   2015-02-14 20:15:00
 categories: python virtualenv
 ---
-# Armando entorno de desarrollo con virtualenv
+# Armando entorno de desarrollo en Python con virtualenv
 
 ### ¿Qué es virtualenv?
 
