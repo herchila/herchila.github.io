@@ -12,6 +12,8 @@ virtualenv, es una herramienta para crear entornos virtuales (aislados) en Pytho
 
 Cuando se está desarrollando con Python, es común utilizar diferentes versiones de un mismo paquete. Por ejemplo, estas trabajando con la versión 2.7 de Python y querés empezar a migrar tu proyecto a la versión 3.4 de Python. La solución a esto consiste en crear entornos virtuales (virtualenvs), uno para cada versión de Python. Esto permite trabajar en un espacio completamente independiente entre los entornos y de los paquetes instalados globalmente en el sistema.
 
+![Python Virtualenv]({{ site.url }}/assets/virtualenv.gif)
+
 Esto quiere decir que podes instalar Python 2.7 en un entorno virtual y Python 3.4 en otro entorno diferente o de forma global sin problema.
 
 ## Instalación
