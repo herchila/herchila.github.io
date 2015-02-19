@@ -18,17 +18,21 @@ Esto quiere decir que podes instalar Python 2.7 en un entorno virtual y Python 3
 
 Pip es el **gestor de paquetes de Python**, al igual que aptitude o apt-get, puedes instalar paquetes con el comando *pip install nombre_paquete*, buscar paquetes con el comando pip search nombre_paquete o listar los paquetes instalados con el comando pip freeze.
 
-### Ubuntu/Debian
+### Primero instalamos Pip
+
+**Ubuntu/Debian**
 
 {% highlight bash %}
 ~$ sudo apt-get install python-pip
 {% endhighlight %}
 
-### OSX
+**OSX**
 
 {% highlight bash %}
 ~$ sudo easy_install pip
 {% endhighlight %}
+
+### Ahora instalamos Virtualenv
 
 Una vez instalado Pip, podemos instalar Virtualenv:
 
