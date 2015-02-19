@@ -17,7 +17,7 @@ Lo recomendable es crear un ambiente de desarrollo antes de empezar cualquier pr
 
 ## Instalando Django
 
-Primero hay que asegurarse de tener activado el entorno de desarrollo (virtualenv):
+Una vez **[instlado y configurado nuestro entorno de desarrollo](http://herchila.github.io/python/virtualenv/2015/02/14/armando-entorno-de-desarrollo-en-python-con-virtualenv.html "Armando entorno de desarrollo con virtualenv")**, nos aseguramos de tenerlo activado:
 
 {% highlight bash %}
 ~$ source envs/mi_proyecto/bin/activate
@@ -30,7 +30,7 @@ Chequeamos que nuestro entorno esté limpio:
 (mi_proyecto) ~$ pip freeze         # no muestra nada
 {% endhighlight %}
 
-Ahora si instalamos Django:
+**¡Ahora si instalamos Django!**
 
 {% highlight bash %}
 (mi_proyecto) ~$ pip install Django
