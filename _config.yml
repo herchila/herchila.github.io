@@ -1,7 +1,7 @@
 # Site settings
 title: herchila
 # email: your-email@domain.com
-description: Líder de proyectos [BA ID](https://id.buenosaires.gob.ar/) y  [Mi BA](http://www.buenosaires.gob.ar/miba) en [@eGovBA](https://twitter.com/eGovBA) [@gcba](https://twitter.com/gcba) | [DigitalIdentity](https://twitter.com/hashtag/DigitalIdentity?src=hash) | Basketball Player.
+description: shortbio.md
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://herchila.github.io" # the base hostname & protocol for your site
 twitter_username: herchila
