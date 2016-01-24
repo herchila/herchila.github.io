@@ -4,9 +4,6 @@ title:  "Modelos en Django"
 date:   2016-01-24 19:00:00
 categories: django
 ---
-![Django logo]({{ site.url }}/assets/django-logo-positive.png)
-
-# Modelos en Django
 
 Lo que vamos a crear ahora es algo que va a guardar todos los posts de un blog.
 
