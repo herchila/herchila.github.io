@@ -111,10 +111,10 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 {% endhighlight %}
 
-Ingresamos a http://127.0.0.1:8000/
+Ingresamos a [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ![Django It worked]({{ site.url }}/assets/django-it-worked.png)
 
-¡Excelente! Acabas de crear tu primer sitio web y ejecutarlo mediante un servidor web! ¿No es genial?
+¡Excelente! Acabas de crear tu primer sitio web y ejecutarlo en un servidor web! ¿No es genial?
 
 **En los próximos posts voy hablar sobre los Modelos y cómo crear nuestra primer aplicación.**
