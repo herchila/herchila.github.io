@@ -110,7 +110,32 @@ Migrations for 'blog':
   - Create model Post
 {% endhighlight %}
 
-Django preparará un archivo de migración que tenemos que aplicar ahora a nuestra base de datos escribiendo `python manage.py migrate blog`:
+Corriendo `makemigrations`, le estamos diciendo a Django que hicimos algunos cambios a nuestros modelos (en este caso, nuevos modelos) y que quisiéramos registrar esos cambios en una migración.
+
+Las migraciones es como Django guarda los cambios a nuestros modelos (y por lo tanto al esquema de base de datos) - son solamente archivos en disco. Podríamos leer la migración de nuestro nuevo modelo si quisiéramos; es el archivo `blog/migrations/0001_initial.py`.
+
+Existe un comando que corre las migraciones y administra el esquema de base de datos automáticamente - se llama `migrate`, y llegaremos a él en un momento - pero primero, veamos cuál es el SQL que la migración correría. El comando `sqlmigrate` toma nombres de migraciones y devuelve el SQL respectivo:
+
+{% highlight bash %}
+(mi_proyecto)~/proyectos/mi_proyecto: $ python manage.py sqlmigrate blog 0001
+{% endhighlight %}
+
+Deberíamos ver algo así:
+
+{% highlight bash %}
+BEGIN;
+CREATE TABLE "blog" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "author" varchar(200) NOT NULL,
+    "title" varchar(200) NOT NULL,
+    "text" text NOT NULL,
+    "created_date" timestamp with time zone NOT NULL,
+    "published_date" timestamp with time zone NOT NULL
+);
+COMMIT;
+{% endhighlight %}
+
+Ahora corramos `migrate` de nuevo para crear las tablas correspondientes a nuestros modelos en la base de datos:
 
 {% highlight bash %}
 (mi_proyecto)~/proyectos/mi_proyecto: $ python manage.py migrate blog
@@ -120,4 +145,8 @@ Running migrations:
   Applying blog.0001_initial... OK
 {% endhighlight %}
 
-¡Buenísimo! Nuestro modelo de Post está ahora en nuestra base de datos. Sería bueno verlo, ¿no? Andá al siguiente capítulo.
+El comando `migrate` toma todas las migraciones que no se aplicaron (Django lleva registro de cuáles se aplicaron usando una tabla especial en la base de datos llamada **django_migrations**) y las corre contra la base de datos - esencialmente, sincroniza el esquema de la base de datos con los cambios hechos a nuestros modelos.
+
+¡Buenísimo! Ahora nuestro modelo _Post_ está en nuestra base de datos.
+
+En el **próximo capítulo** vamos a jugar con la **API de Django** que nos permitirá manipular los datos.
