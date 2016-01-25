@@ -117,4 +117,4 @@ Ingresamos a [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ¡Excelente! Acabas de crear tu primer sitio web y ejecutarlo en un servidor web! ¿No es genial?
 
-**En los próximos posts voy hablar sobre los Modelos y cómo crear nuestra primer aplicación.**
+**[Próximo capítulo: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)**
