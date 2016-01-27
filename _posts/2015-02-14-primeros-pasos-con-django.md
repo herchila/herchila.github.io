@@ -6,6 +6,11 @@ categories: django
 ---
 ![Django logo]({{ site.url }}/assets/django-logo-positive.png)
 
+### Capítulos
+
+- **Capítulo 1: Primeros pasos con Django**
+- [Capítulo 2: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)
+
 La idea de este post es que, en poco tiempo, puedan crear el primer proyecto en Django.
 
 En mi caso usaré la distribución **Ubuntu**, si usas otra distribución pude que éstas indicaciones varíen un poco. Para los que recién empiezan, Django es un Framework para el desarrollo de aplicaciones Web basado en el lenguaje de programación Python. Django es usado por grandes empresas para sus proyectos web como la NASA, New York Times, Disqus, Instagram, Pinterest, etc.
