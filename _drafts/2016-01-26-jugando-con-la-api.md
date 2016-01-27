@@ -5,7 +5,7 @@ date:   2016-01-26 17:10:00
 categories: django
 ---
 
-## Capítulos
+### Capítulos
 
 - [Capítulo 1: Primeros pasos con Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html)
 - [Capítulo 2: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)
@@ -33,7 +33,6 @@ p = Post()
 p.author = user
 p.title = 'Titulo del primer artículo'
 p.text = 'Texto del primer artículo de mi blog.'
-p.created_date = timezone.now()
 p.published_date = timezone.now()
 
 p.save()    # Ahora guardamos
@@ -61,8 +60,99 @@ class Post(models.Model):
 
 Es importante agregar el método __str__() a nuestros modelos porque es la representación usada por Django en la interfaz de administración autogenerada.
 
+El método `publish` agrega la fecha y hora actual y luego guarda el registro. Si queremos diferenciar artículos publicados de los que aun no se publicaron, usamos la función `publish`.
+
+{% highlight bash %}
+p = Post.objects.get(pk=1)
+p.publish()
+{% endhighlight %}
+
+Agregamos un método más a modo de ejemplo:
+
+{% highlight bash %}
+blog/models.py
+
+import datetime
+
+from django.db import models
+from django.utils import timezone
+
+
+class Post(models.Model):
+    # ...
+    def was_published_recently(self):
+        return self.published_date >= timezone.now() - datetime.timedelta(days=1)
+{% endhighlight %}
+
 Guardamos los cambios y empezamos una nueva sesión en el shell corriendo `python manage.py shell` nuevamente:
 
 {% highlight bash %}
+Post.objects.all()
+[<Post: Titulo del primer artículo>]       # Nos aseguramos que el __str__() que agregamos funcione.
 
+Post.objects.filter(id=1)
+[<Post: What's up?>]
+Post.objects.filter(title__startswith='Titulo')
+[<Post: What's up?>]
+
+Post.objects.get(id=2)
+Traceback (most recent call last):
+    ...
+DoesNotExist: Post matching query does not exist.
+
+Post.objects.get(pk=1)      # Django provee un atajo para acceder de manera exacta a traves de la clave primaria (PK)
+<Post: Titulo del primer artículo>
+
+p = Post.objects.get(pk=1)
+p.was_published_recently()          # Probamos el metodo que creamos
+True
 {% endhighlight %}
+
+## Acceder a objetos relacionados
+
+Con el manejador de relaciones de Django (related manager), podemos acceder a otros objetos que esten relacionados. Veamos un ejemplo:
+
+Vamos a mostrar como listamos todos los artículos de un usuario en particular.
+
+Primero vamos a crear una instancia de un usuario que exista en la base de datos:
+
+{% highlight bash %}
+from django.contrib.auth.models import User
+juan = User.objects.get(pk=1)
+{% endhighlight %}
+
+Luego procedemos a crear un artículo referenciándolo al usuario Juan:
+
+{% highlight bash %}
+Post.objects.create(author=juan, title='Primer post de Juan', text='Este es el primer post que Juan escribe.')    # Primero creamos artículos para el autor Juan
+{% endhighlight %}
+
+Probemos que esto funcionó:
+
+{% highlight bash %}
+Post.objects.filter(author=juan)
+[<Post: Primer post de Juan>]
+{% endhighlight %}
+
+Otra forma de crear artículos para un usuario en particular:
+
+{% highlight bash %}
+juan.post_set.all()
+[<Post: Primer post de Juan>]
+
+juan.post_set.create(author=juan, title='Segundo post de Juan', text='Este es el segundo post que Juan escribe.')
+
+u = juan.post_set.create(author=juan, title='Tercer post de Juan', text='Este es el tercer post que Juan escribe.')
+u.post
+[<Post: Tercer post de Juan>]
+
+juan.post_set.all()     # Listar todos los artículos de Juan
+[<Choice: Primer post de Juan>, <Choice: Segundo post de Juan>, <Choice: Tercer post de Juan>]
+
+juan.post_set.count()       # Muestra el total de artículos de Juan
+3
+{% endhighlight %}
+
+Para más información sobre relaciones en modelos, ver ver la [documentacion de objetos relacionados](https://docs.djangoproject.com/en/1.8/ref/models/relations).
+
+Para el detalle completo de la API de base de datos, ver [Database API reference](https://docs.djangoproject.com/en/1.8/topics/db/queries).
