@@ -5,6 +5,8 @@ date:   2016-01-24 19:00:00
 categories: django
 ---
 
+- **[Capítulo anterior: Primeros pasos con Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html)**
+
 Lo que vamos a crear ahora es algo que va a guardar todos los posts de un blog.
 
 ## Empecemos a crear un un modelo en Django
