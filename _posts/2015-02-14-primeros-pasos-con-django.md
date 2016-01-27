@@ -10,6 +10,7 @@ categories: django
 
 - **Capítulo 1: Primeros pasos con Django**
 - [Capítulo 2: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)
+- [Capítulo 3: Jugando con la API](https://herchila.github.io/django/2016/01/26/jugando-con-la-api.html)
 
 La idea de este post es que, en poco tiempo, puedan crear el primer proyecto en Django.
 

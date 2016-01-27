@@ -9,6 +9,7 @@ categories: django
 
 - [Capítulo 1: Primeros pasos con Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html)
 - **Capítulo 2: Modelos en Django**
+- [Capítulo 3: Jugando con la API](https://herchila.github.io/django/2016/01/26/jugando-con-la-api.html)
 
 Lo que vamos a crear ahora es algo que va a guardar todos los posts de un blog.
 
