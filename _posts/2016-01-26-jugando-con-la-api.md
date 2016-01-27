@@ -91,9 +91,9 @@ Post.objects.all()
 [<Post: Titulo del primer artículo>]       # Nos aseguramos que el __str__() que agregamos funcione.
 
 Post.objects.filter(id=1)
-[<Post: What's up?>]
+[<Post: Titulo del primer artículo>]
 Post.objects.filter(title__startswith='Titulo')
-[<Post: What's up?>]
+[<Post: Titulo del primer artículo>]
 
 Post.objects.get(id=2)
 Traceback (most recent call last):
