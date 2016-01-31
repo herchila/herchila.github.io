@@ -146,8 +146,8 @@ u = juan.post_set.create(author=juan, title='Tercer post de Juan', text='Este es
 u.post
 [<Post: Tercer post de Juan>]
 
-juan.post_set.all()     # Listar todos los artículos de Juan
-[<Choice: Primer post de Juan>, <Choice: Segundo post de Juan>, <Choice: Tercer post de Juan>]
+juan.post_set.all()     # Muestra todos los artículos de Juan
+[<Post: Primer post de Juan>, <Post: Segundo post de Juan>, <Post: Tercer post de Juan>]
 
 juan.post_set.count()       # Muestra el total de artículos de Juan
 3
