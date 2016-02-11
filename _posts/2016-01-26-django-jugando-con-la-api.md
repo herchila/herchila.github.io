@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jugando con la API"
+title:  "Django: Jugando con la API"
 date:   2016-01-26 17:10:00
 categories: django
 ---
