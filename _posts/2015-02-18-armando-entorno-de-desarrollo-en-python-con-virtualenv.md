@@ -86,6 +86,6 @@ En el directorio **bin/** se encuentran los ejecutables necesarios para interact
 {% endhighlight %}
 
 **¿No fue sencillo?**
-Ahora podes materializar tus ideas [creando un proyecto Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html) y tenerlo en cuestion de horas.
+Ahora podes materializar tus ideas [creando un proyecto Django](https://herchila.github.io/django/2015/02/18/django-primeros-pasos.html) y tenerlo en cuestion de horas.
 
 Si tienes alguna duda o algo para mejorar, escribe un comentario y aprendemos todos.

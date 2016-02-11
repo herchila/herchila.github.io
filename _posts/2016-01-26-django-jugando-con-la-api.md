@@ -7,9 +7,9 @@ categories: django
 
 ### Capítulos
 
-- [Capítulo 1: Primeros pasos con Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html)
-- [Capítulo 2: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)
-- **Capítulo 3: Jugando con la API**
+- [Capítulo 1 - Django: Primeros pasos](https://herchila.github.io/django/2015/02/18/django-primeros-pasos.html)
+- [Capítulo 2 - Django: Modelos](https://herchila.github.io/django/2016/01/24/django-modelos.html)
+- **Capítulo 3 - Django: Jugando con la API**
 
 Django nos provee una API completa que nos permite acceder a los modelos y jugar:
 
