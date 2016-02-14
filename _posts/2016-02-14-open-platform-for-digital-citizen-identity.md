@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Open Platform for Digital Citizen Identity"
-date:   2016-03-14 02:46:00
-category: article
-tags: [opengov, openid, digital-identity]
+date:   2016-02-14 02:46:00
+categories: opengov, openid, digital-identity
 ---
 
 <img src="https://dl.dropboxusercontent.com/u/1147871/openbaid.png" class="center" alt="Open Platform for Digital Citizen Identity">
