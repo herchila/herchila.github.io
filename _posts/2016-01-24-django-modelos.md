@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Modelos en Django"
+title:  "Django: Modelos"
 date:   2016-01-24 19:00:00
 categories: django
 ---
 
 ### Capítulos
 
-- [Capítulo 1: Primeros pasos con Django](https://herchila.github.io/django/2015/02/18/primeros-pasos-con-django.html)
-- **Capítulo 2: Modelos en Django**
-- [Capítulo 3: Jugando con la API](https://herchila.github.io/django/2016/01/26/jugando-con-la-api.html)
+- [Capítulo 1 - Django: Primeros pasos](https://herchila.github.io/django/2015/02/18/django-primeros-pasos.html)
+- **Capítulo 2 - Django: Modelos**
+- [Capítulo 3 - Django: Jugando con la API](https://herchila.github.io/django/2016/01/26/django-jugando-con-la-api.html)
 
 Lo que vamos a crear ahora es algo que va a guardar todos los posts de un blog.
 
@@ -155,4 +155,4 @@ El comando `migrate` toma todas las migraciones que no se aplicaron (Django llev
 
 ¡Buenísimo! Ahora nuestro modelo _Post_ está en nuestra base de datos.
 
-En el **próximo capítulo** vamos a jugar con la **API de Django** que nos permitirá manipular los datos.
+En el [próximo capítulo](https://herchila.github.io/django/2016/01/16/django-jugando-con-la-api.html) vamos a jugar con la **API de Django** que nos permitirá manipular los datos.

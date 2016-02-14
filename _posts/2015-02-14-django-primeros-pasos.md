@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Primeros pasos con Django"
+title:  "Django: Primeros pasos"
 date:   2015-02-18 16:13:00
 categories: django
 ---
@@ -8,9 +8,9 @@ categories: django
 
 ### Capítulos
 
-- **Capítulo 1: Primeros pasos con Django**
-- [Capítulo 2: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)
-- [Capítulo 3: Jugando con la API](https://herchila.github.io/django/2016/01/26/jugando-con-la-api.html)
+- **Capítulo 1 - Django: Primeros pasos**
+- [Capítulo 2 - Django: Modelos](https://herchila.github.io/django/2016/01/24/django-modelos.html)
+- [Capítulo 3 - Django: Jugando con la API](https://herchila.github.io/django/2016/01/26/django-jugando-con-la-api.html)
 
 La idea de este post es que, en poco tiempo, puedan crear el primer proyecto en Django.
 
@@ -123,4 +123,4 @@ Ingresamos a [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ¡Excelente! Acabas de crear tu primer sitio web y ejecutarlo en un servidor web! ¿No es genial?
 
-**[Próximo capítulo: Modelos en Django](https://herchila.github.io/django/2016/01/24/modelos-en-django.html)**
+**[Próximo capítulo -> Django: Modelos](https://herchila.github.io/django/2016/01/24/django-modelos.html)**
