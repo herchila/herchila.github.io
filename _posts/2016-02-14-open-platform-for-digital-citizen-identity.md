@@ -4,8 +4,9 @@ title:  "Open Platform for Digital Citizen Identity"
 date:   2016-03-14 02:46:00
 category: article
 tags: [opengov, openid, digital-identity]
+---
 
-![Open Platform for Digital Citizen Identity](https://dl.dropboxusercontent.com/u/1147871/openbaid.png)
+<img src="https://dl.dropboxusercontent.com/u/1147871/openbaid.png" class="center" alt="Open Platform for Digital Citizen Identity">
 
 We build a [Digital ID Provider](https://id.buenosaires.gob.ar/) for the Buenos Aires City to create a new digital experience for our users by simplifying processes and avoiding requesting information that they have already uploaded.
 
