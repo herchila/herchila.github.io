@@ -22,6 +22,6 @@ Mi BA es el panel personal donde se centraliza toda la información de la Ciudad
 
 ### Open BA ID
 
-Open Source Platform ID Provider built on OpenID Connect technology for any government.
+Plataforma open source de Identidad Digital desarrollada bajo la tecnología [OpenID Connect](https://openid.net/connect/)
 
 **Repository**: [https://github.com/gcba/OpenBAID](https://github.com/gcba/OpenBAID)
