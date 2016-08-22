@@ -8,7 +8,7 @@ tags: [git, protip]
 
 There are 2 ways to do it: simplified on a single line or not simplified with more details.
 
-## Simplified form
+##Simplified form
 
 {% highlight bash %}
 $ git log --branches --not --remotes --simplify-by-decoration --decorate --oneline
@@ -22,7 +22,7 @@ a0ea499 (HEAD, master) Fix html layout.
 ff48529 (deletedusers) New model to admin deleted users.
 {% endhighlight %}
 
-## Complete form
+##Complete form
 
 Simply remove the following: `--oneline`
 
@@ -36,9 +36,9 @@ $ git log --branches --not --remotes --simplify-by-decoration --decorate
 commit a0ea499... (HEAD, master)
 Author: Hernan <hernan@gmail.com>
 Date:   Sun Ago 21 22:39:44 2016 -0300
-{% endhighlight %}
 
     Fix html layout.
+{% endhighlight %}
 
 **but... is so long write this each time, so... we will create an alias :)**
 
