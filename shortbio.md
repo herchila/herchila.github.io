@@ -1,1 +1,0 @@
-Líder de proyectos [BA ID](https://id.buenosaires.gob.ar/) y  [Mi BA](http://www.buenosaires.gob.ar/miba) en [@eGovBA](https://twitter.com/eGovBA) [@gcba](https://twitter.com/gcba) | [DigitalIdentity](https://twitter.com/hashtag/DigitalIdentity?src=hash) | Basketball Player.
