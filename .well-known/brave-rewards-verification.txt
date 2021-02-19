@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: hernanchilabert.com
+Token: c67b5f8ec0c164bebe49c382998079100c96f593a6e599b8042ee3915e01a6b7
