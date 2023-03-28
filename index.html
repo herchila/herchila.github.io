@@ -1,351 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8" />
+    <title>Hernan Chilabert - Software Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        content="Software developer with background working productively in dynamic environments. Fluent in Python programming language and Django used to develop software. Proud team player focused on achieving project objectives with speed and accuracy."
+        name="description" />
+    <meta name="keywords" content="software developer, python, django" />
+    <meta content="Themesbrand" name="author" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css" />
+    <!-- Bootstrap Css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors/red.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59789436-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-59789436-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-59789436-1');
     </script>
 
-    <title>Hernán Chilabert | Backend Software Developer</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hernán Chilabert | Backend Software Developer">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">  
-    <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-</head> 
+</head>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <!--img class="profile" src="assets/images/profile.jpg" alt="Hernán Chilabert | Software Developer" style="border-radius: 100%; width: 70%;"-->
-                <h1 class="name">Hernán Chilabert</h1>
-                <h3 class="tagline">Software Developer</h3>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: hchilabert@gmail.com">hchilabert@gmail.com</a></li>
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/herchila/?locale=en_US" target="_blank">LinkedIn</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/herchila" target="_blank">GitHub</a></li>
+<body data-spy="scroll" data-target="#data-scroll" data-hijacking="on" data-animation="scaleDown">
+
+    <!-- STRAT NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <a class="navbar-brand logo text-uppercase" href="/">
+                Hernán Chilabert
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-center ml-auto" id="mySidenav">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/herchila/" target="_blank" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">System Programming</h4>
-                    <h5 class="meta">Universidad de Ciencias Empresariales y Sociales. Argentina.</h5>
-                    <div class="time">2010 - 2013</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Intermediate)</span></li>
-                    <li>Spanish <span class="lang-desc">(Native)</span></li>
-                </ul>
-            </div><!--//interests-->
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
-            
-            <section class="section summary-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
-                <div class="summary">
-                    <p>Software Engineer with background working productively in dynamic environments. Fluent in Python programming language and Django used to develop software. Proud team player focused on achieving project objectives with speed and accuracy.</p>
-                    <p>I am currently a Software Engineer at <a href="https://venmo.com/" target="_blank">Venmo, Inc.</a> building, and maintaining technical solutions for multiple backend components, most notably business profile.</p>
-                </div><!--//summary-->
-            </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Engineer</h3>
-                            <div class="time">2020 - present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Venmo
-                            <span class="pull-right"><a href="https://www.venmo.com" target="_blank">Venmo</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <ul>
-                            <li>Working as a Senior Software Engineer, designed and implemented some amazing and feature-rich new products from scratch which is being used by millions of users</li>
-                            <li>Took ownership of developing multiple backend services, API implementation, and proactively monitoring and tuning the performance of these services</li>
-                            <li>Developed multiple monitoring boards to diligently track the behavior of these features in production</li>
-                            <li>Cross collaborated with multiple teams and was actively involved in triaging production bugs to ensure their timely resolution</li>
-                            <li>Test-driven development approach</li>
-                            <li>Focus on test-coverage for all the code written</li>
-                            <li>Actively review all the code from other team members</li>
-                        </ul>
-                        <h6>Stack</h6>
-                        <span>Python, Django, API REST, TDD, Docker, Git, Datadog</span>
+
+    <!--START HOME-->
+    <section class="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
+        <div class="bg-overlay"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-white text-center">
+                    <h4 class="home-small-title">Hernán Chilabert</h4>
+                    <h1 class="home-title font-weight-light">Software Developer</h1>
+                    <p class="padding-t-15 home-desc mx-auto">Software developer with background working productively in
+                        dynamic environments. Fluent in Python programming language and Django used to develop software.
+                        Proud team player focused on achieving project objectives with speed and accuracy.</p>
+
+                    <p class=" margin-t-30 mb-5">
+                        <a href="https://www.linkedin.com/in/herchila/" target="_blank"
+                            class="btn btn-custom waves-effect waves-light">Contact</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HOME-->
+
+
+    <!--START FOOTER ALTER-->
+    <div class="footer-alt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="float-left pull-none">
+                        <p class="copy-rights text-muted mb-3 mb-sm-0">
+                            This site is owned and operated by Hernán Chilabert.
+                        </p>
                     </div>
-                </div><!--//details-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Tech Lead</h3>
-                            <div class="time">2016 - 2020</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Digital Government of Argentina
-                            <span class="pull-right"><a href="https://www.argentina.gob.ar/miargentina" target="_blank">Mi Argentina Dashboard</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Leading, managing, conduct technical design and architectural reviews for all of the SSO and Mi Argentina profile project</li>
-                            <li>Managing a team of 6 full time engineers along with an offshore team</li>
-                            <li>Involved in every feature phase (discovery, planning/scoping and execution) for Mi Argentina</li>
-                            <li>Closely involved in product operations like roadmap planning, sizing, deliverables commitments, etc</li>
-                            <li>Successfully delivered a number of features for Mi Argentina that made it possible to give citizens quick and easy access to many government services. E.g. Digital ID, Driver License, health services, etc</li>
-                            <li>Drive the technical debt roadmap for overall SSO platform</li>
-                            <li>Responsible for end-to-end product development lifecycle.</li>
-                        </ul>
-
-                        <h6>Highlights</h6>
-                        <ul>
-                            <li>Added new features to OpenID Connect Idp</li>
-                            <li>Implemented API REST to consume other entities information</li>
-                            <li>Python 2 to Python 3 migration</li>
-                            <li>Notify manager (email and push sender)</li>
-                        </ul>
-                        <h6>Stack</h6>
-                        <span>Python, Django, Celery, API REST, OpenID Connect, PostgreSQL, Redis, Ansible, Git</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Operations Manager</h3>
-                            <div class="time">06 - 12/2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Government of Buenos Aires Autonomous City
-                            <span class="pull-right"><a href="https://miba.buenosaires.gob.ar" target="_blank">Mi BA Dashboard</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Establish the objectives, scope and new functionalities for all the products in the area, as well as to create new products</li>
-                            <li>Prepare the general planning of the area for each work cycle and collaborate in the team organization to meet the proposed objectives</li>
-                            <li>Follow up on established priorities</li>
-                            <li>Organize the team to meet the proposed objectives</li>
-                        </ul>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Project Leader</h3>
-                            <div class="time">09/2014 - 06/2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Government of Buenos Aires Autonomous City
-                            <span class="pull-right"><a href="https://miba.buenosaires.gob.ar" target="_blank">Mi BA Dashboard</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I worked as a project leader performing the following tasks:</p>
-                        <ul>
-                            <li>General area planning for each work cycle</li>
-                            <li>Organize the team to meet the proposed objectives</li>
-                            <li>Optimize the team work</li>
-                            <li>Follow-up of established priorities and the changes that may happen</li>
-                        </ul>
-                        <h6>Highlights</h6>
-                        <ul>
-                            <li>MongoDB to PosgreSQL migration</li>
-                            <li>Create OpenID Connect identity provider following the specs. <a href="https://openid.net/">https://openid.net/</a></li>
-                            <li>OpenID 1.0 to OpenID Connect migration</li>
-                            <li>Create API Gateway as web services proxy</li>
-                            <li>Add new features to MiBA citizen dashboard</li>
-                        </ul>
-                        <h6>Stack</h6>
-                        <span>Django, Django REST Framework, PostgreSQL, Redis, Celery, Ansible, AngularJS, Git, Redmine, Mantis</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Full Stack Developer</h3>
-                            <div class="time">01/2014 - 08/2014</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Government of Buenos Aires Autonomous City
-                            <span class="pull-right"><a href="https://miba.buenosaires.gob.ar" target="_blank">Mi BA Dashboard</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I worked as full stack web developer building authentication system for the citizens that grants access to many of the administration’s services with one ID and a dashboard where the citizens can connect and get appointments at the hospitals, check for traffic tickets, local taxes, among others.</p>
-                        <h6>Stack</h6>
-                        <span>Django, MongoDB, Redis, Celery, AngularJS, Git, Redmine, Mantis</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Frontend UI Developer</h3>
-                            <div class="time">06/2013 - 01/2014</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Globant</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I worked as frontend web developer building apps using SenchaJS.</p>
-                        <h6>Stack</h6>
-                        <span>SenchaJS, JavaScript, HTML, CSS</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Web Developer</h3>
-                            <div class="time">10/2010 - 11/2012</div>
-                        </div><!--//upper-row-->
-                        <div class="company">ESET Latinoamérica
-                            <span class="pull-right"><a href="https://www.eset.com/">ESET Latinoamérica</a></span>
-                        </div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I worked as PHP web developer.</p>
-                        <h6>Highlights</h6>
-                        <ul>
-                            <li>In charge of the analysis and development of new features of the corporate website</li>
-                            <li>Create web applications for internal areas</li>
-                            <li>Develop new features of the company blogs (WordPress)</li>
-                            <li>Tickets resolutions for internal systems</li>
-                        </ul>
-                        <h6>Stack</h6>
-                        <span>PHP, HTML, CSS, JavaScript, MySQL, WordPress</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Web Developer</h3>
-                            <div class="time">11/2008 - 10/2010</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Loopa S.A.</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Development of social networks integrating PHP and .NET technologies on the same platform. Blog development with WordPress.</p>
-                        <h6>Stack</h6>
-                        <span>C# .NET, SQL Server, HTML, CSS, JavaScript, PHP, WordPress</span>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
-            
-            <!--
-            <section class="section projects-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
-                <div class="intro">
-                    <p></p>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="" target="_blank">Title</a></span> - 
-                    <span class="project-tagline">A responsive website.</span>
-                </div>
-            </section>
-            -->
-
-            <!--section class="section certifications-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-certificate"></i></span>Certifications &amp; Courses</h2>
-
-                <h5>React JS</h5>
-                <p>Platzi - <a href="https://platzi.com/p/herchila/curso/1651-react-ejs/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 274e130b0-550b-478e-a899-ff13d4015630</p>
-                
-                <h5>React Router & Redux</h5>
-                <p>Platzi - <a href="https://platzi.com/p/herchila/curso/1652-react-router-redux/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 9a2353b5-8e40-48bc-89b8-0bd656b3683a</p>
-                
-                <h5>Introduction to Computational Thinking with Python</h5>
-                <p>Platzi - <a href="https://platzi.com/p/herchila/curso/1764-python-cs/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 9a24fa94-cb4c-46c0-b9c3-37d7594704c2</p>
-                
-                <h5>Django Advanced</h5>
-                <p>Platzi - <a href="https://platzi.com/@herchila/curso/1461-django-avanzado/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 73ae34fe-c9a0-480b-b91c-525be2b8d5d6</p>
-
-                <h5>Introduction to Django</h5>
-                <p>Platzi - <a href="https://platzi.com/@herchila/curso/1318-django/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 74f2279e-427c-40e8-97dc-58fcd7416e4f</p>
-
-                <h5>Introduction to Python</h5>
-                <p>Platzi - <a href="https://platzi.com/@herchila/curso/1378-python-practico/diploma/detalle/" target="_blank">View certificate</a></p>
-                <p>Credential ID: 269590aa-c5ac-4291-8cb2-aaa66e9636ff</p>
-
-                <h5>Time Management</h5>
-                <p>Axon Training - Issued Aug 2012 (No Expiration Date)</p>
-            </section-->
-
-            <section class="skills-section section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills</h2>
-                <div class="skillset">
-                    <div class="skill-type">
-                        <h6>Frontend</h6>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>React</li>
+                    <div class="float-right pull-none ">
+                        <ul class="list-inline social m-0">
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/herchila/" target="_blank"
+                                    class="social-icon"><i class="mdi mdi-linkedin"></i></a></li>
                         </ul>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="skillset">
-                    <div class="skill-type">
-                        <h6>Backend</h6>
-                        <ul>
-                            <li>Python</li>
-                            <li>Django</li>
-                            <li>RESTful</li>
-                            <li>PostgreSQL</li>
-                            <li>MongoDB</li>
-                            <li>Redis</li>
-                            <li>Celery</li>
-                            <li>SSH</li>
-                            <li>API Development</li>
-                            <li>Docker</li>
-                            <li>Git</li>
-                            <li>Ansible</li>
-                        </ul>
-                    </div>
-                </div>
-            </section><!--//skills-section-->
-        </div><!--//main-body-->
+            </div>
+        </div>
     </div>
-
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other commercial license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+    <!--START FOOTER ALTER-->
 </body>
+
 </html>
